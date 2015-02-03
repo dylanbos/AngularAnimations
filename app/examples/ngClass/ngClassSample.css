@@ -1,0 +1,49 @@
+/* ngclass animation */
+/*This is the initialClass, that keeps in the element*/
+.initialClass {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+/* This is the animationClass, that is added or removed by the ngClass
+expression*/
+.animationClass {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+@-webkit-keyframes ng-class-animation {
+    from {
+        background-color: white;
+        color:black;
+        border: 1px solid black;
+    }
+    to {
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+    }
+}
+@keyframes ng-class-animation {
+    from {
+        background-color: white;
+        color:black;
+        border: 1px solid black;
+    }
+    to {
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+    }
+}
+
+.initialClass.animationClass-add{
+    -webkit-animation: 1s ng-class-animation;
+    animation: 1s ng-class-animation;
+}
+
+.initialClass.animationClass-remove {
+    -webkit-animation: 1s ng-class-animation reverse;
+    animation: 1s ng-class-animation reverse;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "placeholders",
+  "main": "dist/placeholders.min.js",
+  "ignore": [
+    ".gitignore",
+    ".jshintignore",
+    ".editorconfig",
+    "package.json",
+    ".jshintrc",
+    ".jscsrc",
+    "test/",
+    "lib/"
+  ],
+  "homepage": "https://github.com/jamesallardice/Placeholders.js",
+  "_release": "9acb4db1b3",
+  "_resolution": {
+    "type": "branch",
+    "branch": "v3.1.0",
+    "commit": "9acb4db1b3d6cd69367fe960b0bc942ddcb12f60"
+  },
+  "_source": "https://github.com/jamesallardice/Placeholders.js.git",
+  "_target": "v3.1.0",
+  "_originalSource": "jamesallardice/Placeholders.js"
+}
